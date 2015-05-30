@@ -26,6 +26,8 @@
     "issue"
   ],
   "dependencies": {
+    "bluebird": "^2.9.27",
+    "github": "^0.2.4",
     "material-flux": "^1.2.1",
     "purecss": "^0.6.0",
     "react": "^0.13.3"

@@ -39,9 +39,10 @@ html, body {
     height: 100%; }
 
 .IssueItem {
-  border-bottom: solid 1px #129FEA; }
+  border-bottom: solid 1px #129FEA;
+  cursor: pointer; }
 
-.MyIssuelist {
+.IssueList {
   overflow: scroll; }
 
 /*# sourceMappingURL=index.css.map */
