@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>GitHub Issue Teev</title>
+    <script src="node_modules/node-webkit-winstate/index.js"></script>
+    <script src="node_modules/nw-normalize-menu/nw-normalize-menu.js"></script>
+    <link rel="stylesheet" href="./css/index.css"/>
+    <link rel="stylesheet" href="node_modules/purecss/build/pure.css"/>
+</head>
+<body>
+<script>
+
+    global.Element = Element;
+    global.document = window.document;
+    global.navigator = window.navigator;
+    global.Notification = window.Notification;
+    global.getComputedStyle = window.getComputedStyle;
+    global.localStorage = window.localStorage;
+    global.XMLHttpRequest = window.XMLHttpRequest;
+
+
+    require("babel/register");
+    require("./lib/app");
+</script>
+</body>
+</html>

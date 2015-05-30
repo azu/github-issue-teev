@@ -1,0 +1,40 @@
+{
+  "name": "github-issue-teev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/github-issue-teev.git"
+  },
+  "author": "azu",
+  "email": "azuciao@gmail.com",
+  "homepage": "https://github.com/azu/github-issue-teev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/github-issue-teev/issues"
+  },
+  "version": "1.0.0",
+  "description": "github issue browser",
+  "main": "index.html",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "github",
+    "issue"
+  ],
+  "dependencies": {
+    "material-flux": "^1.2.1",
+    "purecss": "^0.6.0",
+    "react": "^0.13.3"
+  },
+  "devDependencies": {
+    "babel": "^5.4.7",
+    "electron-prebuilt": "^0.26.1",
+    "electron-template-menu": "^1.0.2",
+    "node-webkit-winstate": "^1.1.1",
+    "nw-normalize-menu": "^1.0.2"
+  }
+}
