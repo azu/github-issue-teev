@@ -31,6 +31,7 @@
     "github": "^0.2.4",
     "insert-css": "^0.2.0",
     "material-flux": "^1.2.1",
+    "parse-github-url": "^0.1.0",
     "purecss": "^0.6.0",
     "react": "^0.13.3",
     "structured-source": "^3.0.2"
