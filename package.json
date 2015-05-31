@@ -32,6 +32,7 @@
     "insert-css": "^0.2.0",
     "local-storage": "^1.4.2",
     "material-flux": "^1.2.1",
+    "md2react": "^0.6.4",
     "parse-github-url": "^0.1.0",
     "purecss": "^0.6.0",
     "react": "^0.13.3",

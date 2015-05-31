@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   box-sizing: border-box; }
 
@@ -61,5 +62,17 @@ html, body {
   .IssueItem .IssueItem-title {
     font-size: 100%;
     margin: 0; }
+
+.RepositoryIssueList .markdown ul {
+  padding: 0 0.5em; }
+.RepositoryIssueList .markdown li.checked, .RepositoryIssueList .markdown li.unchecked {
+  list-style: none; }
+  .RepositoryIssueList .markdown li.checked p, .RepositoryIssueList .markdown li.unchecked p {
+    display: inline;
+    padding-left: 0.5em; }
+.RepositoryIssueList .markdown li.checked:before {
+  content: '☑'; }
+.RepositoryIssueList .markdown li.unchecked:before {
+  content: '□'; }
 
 /*# sourceMappingURL=index.css.map */

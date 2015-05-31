@@ -1,0 +1,21 @@
+.RepositoryIssueList {
+  .markdown {
+    ul {
+      padding: 0 0.5em;
+    }
+    li.checked, li.unchecked {
+      list-style: none;
+      p {
+        display: inline;
+        padding-left: 0.5em;
+      }
+    }
+    li.checked:before {
+      content: '☑';
+    }
+
+    li.unchecked:before {
+      content: '□';
+    }
+  }
+}
