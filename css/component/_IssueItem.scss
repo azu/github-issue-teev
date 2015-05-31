@@ -1,5 +1,10 @@
 .IssueItem {
-  border-bottom: solid 1px #129FEA;
+  border-bottom: solid 1px #949AA2;
   cursor: pointer;
   margin: 0;
+  padding: 0.5em 0 0 0.2em;
+  .IssueItem-title {
+    font-size: 100%;
+    margin: 0;
+  }
 }

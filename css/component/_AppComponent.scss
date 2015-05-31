@@ -3,6 +3,21 @@
   height: 100%;
 
   .AppComponent-sidebar-title {
-    border-bottom: solid 2px #4aaa88;
+    color: #949AA2;
+    background-color: #2E3840;
+    margin: 0;
+    padding: 0.2em 0 0.2em 0.3em;
+  }
+  .IssueList {
+    margin: 0.5em 0 1.0em 0;
+    padding: 0 0.1em;
+  }
+
+  .AppComponent-sidebar {
+    color: white;
+    background-color: #37414B;
+    a {
+      color: #949AA2;
+    }
   }
 }

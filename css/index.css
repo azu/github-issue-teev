@@ -33,7 +33,18 @@ html, body {
   width: 100%;
   height: 100%; }
   .AppComponent .AppComponent-sidebar-title {
-    border-bottom: solid 2px #4aaa88; }
+    color: #949AA2;
+    background-color: #2E3840;
+    margin: 0;
+    padding: 0.2em 0 0.2em 0.3em; }
+  .AppComponent .IssueList {
+    margin: 0.5em 0 1.0em 0;
+    padding: 0 0.1em; }
+  .AppComponent .AppComponent-sidebar {
+    color: white;
+    background-color: #37414B; }
+    .AppComponent .AppComponent-sidebar a {
+      color: #949AA2; }
 
 .GitHubWebView {
   width: 100%;
@@ -43,8 +54,12 @@ html, body {
     height: 100%; }
 
 .IssueItem {
-  border-bottom: solid 1px #129FEA;
+  border-bottom: solid 1px #949AA2;
   cursor: pointer;
-  margin: 0; }
+  margin: 0;
+  padding: 0.5em 0 0 0.2em; }
+  .IssueItem .IssueItem-title {
+    font-size: 100%;
+    margin: 0; }
 
 /*# sourceMappingURL=index.css.map */
