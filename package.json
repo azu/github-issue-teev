@@ -30,6 +30,7 @@
     "codemirror": "^5.3.0",
     "github": "^0.2.4",
     "insert-css": "^0.2.0",
+    "local-storage": "^1.4.2",
     "material-flux": "^1.2.1",
     "parse-github-url": "^0.1.0",
     "purecss": "^0.6.0",
