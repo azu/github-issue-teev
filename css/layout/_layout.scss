@@ -21,6 +21,8 @@ html, body {
 .l-left-sidebar {
   order: 1;
   width: 20%;
+  max-height: 100%;
+  overflow-y: scroll;
 }
 
 .l-center-view {
