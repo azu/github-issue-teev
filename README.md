@@ -1,4 +1,5 @@
-# github-issue-teev
+# github-issue-teev [![Build Status](https://travis-ci.org/azu/github-issue-teev.svg?branch=master)](https://travis-ci.org/azu/github-issue-teev)
+
 
 GitHub Issue Manager(Browser) on NW.js
 
