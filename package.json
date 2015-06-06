@@ -19,7 +19,6 @@
   },
   "scripts": {
     "build": "nw-zip-builder -p 'win,osx' ./ -o ./build --quiet",
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "github",
