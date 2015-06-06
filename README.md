@@ -3,17 +3,28 @@
 
 GitHub Issue Manager(Browser) on NW.js
 
+![screenshot](http://monosnap.com/image/2JTJWEqoZAFuSqqT57edf7xSEtqpwi.png)
+
+## Feature
+
+- Show Assigned issue list
+- Show Favorite Repositories issues list
+- Show `- [ ]` task in a issue
+- Use CodeMirror editor instead of default textarea
+    - `Cmd+e` toggle
+
 ## Installation
 
-- [ ] Describe the installation process
+Download binary from [Latest Release](https://github.com/azu/github-issue-teev/releases/latest).
+
+Work on Windows/OS X/Linux
 
 ## Usage
 
-- [ ] Write usage instructions
-
-## Tests
-
-- [ ] Write How to Tests
+1. Open app
+2. Input Your [Personal token](https://github.com/settings/tokens).
+    - [Creating an access token for command-line use - User Documentation](https://help.github.com/articles/creating-an-access-token-for-command-line-use/ "Creating an access token for command-line use - User Documentation")
+    - Show Issue lists
 
 ## Contributing
 
