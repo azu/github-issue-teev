@@ -7,7 +7,7 @@ deploy:
   provider: releases
   api_key:
     secure: QibhV/FOIrNS921A5jkErJ7BIED2QzgyQUzdO2pk+xBoULSIo2bI1nNsYhy7ioNIjmXggHYgIS+ggpa5ZkxwP9qiidu9ML0+aJfRDGnJZjZe+ohK1A+fpq6g8e6G4wk4Nk5b70GrPYDCrxevDGaa6s6XbuTqUYxh0uDsYvmlA6DySGL0vrDCapQQJG5ltqUyuiOp6WzVfwl5wSd8vQ4firMuT/7KqKQ17eINbpT5Bn5eSjz35TKIf1uNqe0bXqv37nERUEKdKQG4ktIb+9y62WT3hc38AiRU3aWlvK9Z4njln/WAnRFYNl/xP1MuSWUJWPlZX9EGrC6buwn+0zf1Y7/UhjgXOJ/v3lX3nP1fc64q1pgPXgQndgdbEyomeWljimUSey/VPzPlFs9O9MWIIXQD1HDLWhjiN2tvujNnRcJIzuxAXEiU5lDf/XUuPFoT0EJONUG1ZCi7eTkn+3LP1iw0y2gLwYnq2L9YIUKBzQOo5hSAbodmZErzd7Ul4rULDsEHkXtbK5KcrsvC6RziWeIAyw3lrW1qLLTq/eweP7h6NWW0Vs76T2rWCTseRlYKcTRQw1uVCW50wGG+QQqotLnN4IjJ9i3zsyZgkEaQtzY8m92wCvyMPtCPfh9Mqmbz2nmgtPzyAtLdbW78VzmzHO3wdiehFdgMDaKjF5w2w1k=
-  files:
+  file:
   - ./build/github-issue-teev/github-issue-teev-osx64.zip
   - ./build/github-issue-teev/github-issue-teev-osx32.zip
   - ./build/github-issue-teev/github-issue-teev-win64.zip
