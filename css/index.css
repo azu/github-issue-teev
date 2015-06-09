@@ -75,4 +75,9 @@ html, body {
 .RepositoryIssueList .markdown li.unchecked:before {
   content: '□'; }
 
+.IssueListToolbar {
+  padding-bottom: 0.3em; }
+  .IssueListToolbar .refresh {
+    background-color: #37414B; }
+
 /*# sourceMappingURL=index.css.map */
