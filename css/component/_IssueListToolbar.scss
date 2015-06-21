@@ -1,0 +1,8 @@
+@import "../app-color";
+
+.IssueListToolbar {
+  padding-bottom: 0.3em;
+  .refresh {
+    background-color: $sidebar-background-color;
+  }
+}

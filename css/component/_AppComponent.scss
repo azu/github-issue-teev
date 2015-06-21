@@ -1,9 +1,11 @@
+@import "../app-color";
+
 .AppComponent {
   width: 100%;
   height: 100%;
 
   .AppComponent-sidebar-title {
-    color: #949AA2;
+    color: $sidebar-font-color;
     background-color: #2E3840;
     margin: 0;
     padding: 0.2em 0 0.2em 0.3em;
@@ -15,9 +17,9 @@
 
   .AppComponent-sidebar {
     color: white;
-    background-color: #37414B;
+    background-color: $sidebar-background-color;
     a {
-      color: #949AA2;
+      color: $sidebar-font-color;
     }
   }
 }
